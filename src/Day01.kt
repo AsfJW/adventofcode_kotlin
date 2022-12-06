@@ -1,13 +1,13 @@
 fun main() {
     val input = readInput("Day01")
-    var max: Int = Int.MIN_VALUE
+    val elves = mutableListOf<Int>()
     var sum = 0
     input.forEach() {
         if (it.isNotEmpty()) sum += it.toInt()
         else {
-            if (sum > max) max = sum
+            elves.add(sum)
             sum = 0
         }
     }
-    println(max)
+    println(elves.sortedDescending().take(3).sum())
 }
