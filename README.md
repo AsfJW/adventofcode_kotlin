@@ -2,7 +2,7 @@
 
 Welcome to the Advent of Code[^aoc] Kotlin project created by [asfjw][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
 
-In this repository, asfjw is about to provide solutions for the puzzles using [Kotlin][kotlin] language.
+In this repository, asfjw is about to provide solutions for the puzzles using [Kotlin][kotlin] language. Considering I've only just started learning, I don't think I'll go very far! :D
 
 If you're stuck with Kotlin-specific questions or anything related to this template, check out the following resources:
 
